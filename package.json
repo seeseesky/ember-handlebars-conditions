@@ -1,7 +1,7 @@
 {
   "name": "ember-handlebars-conditions",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Using ember-handlebars-conditions helpers function in handlebars to have more flexibility in conditional manipulation",
   "keywords": [
     "ember-addon",
     "helpers",
