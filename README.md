@@ -17,8 +17,8 @@ It is a Ember addon to allow more flexibility on the conditional manipulation in
 |lt|`if (a < b)`|`{{ if (lt a b) }}`|---|
 |lte|`if (a <= b)`|`{{ if (lte a b) }}`|---|
 |and|`if (a && b)`|`{{ if (and a b) }}`|---|
-|or|`if (a || b)`|`{{ if (or a b) }}`|---|
-|xor|`if (!a && b || !b && a)`|`{{ if (xor a b) }}`|---|
+|or|`if (a &#124;&#124; b)`|`{{ if (or a b) }}`|---|
+|xor|`if (!a && b &#124;&#124; !b && a)`|`{{ if (xor a b) }}`|---|
 |isBlank|`if (Ember.isBlank(a))`|`{{ if (isBlank a) }}`|---|
 |isEmpty|`if (Ember.isEmpty(a))`|`{{ if (isEmpty a) }}`|---|
 |isNone|`if (Ember.isNone(a))`|`{{ if (isNone a) }}`|---|
