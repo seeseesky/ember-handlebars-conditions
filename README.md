@@ -10,7 +10,7 @@ It is a Ember addon to allow more flexibility on the conditional manipulation in
 |Helper|Logic|Syntax|Remarks
 |:---|:---|:---|:---|
 |eq|`if (a==b)`|`{{ if (eq a b) }}`|Non-strict comparison|
-|seq|`if (a===b)`|`{{ if (seq str1 str2) }}`|Strict comparison|
+|seq|`if (a===b)`|`{{ if (seq a b) }}`|Strict comparison|
 |not|`if (!a)`|`{{ if (not a) }}`|---|
 |gt|`if (a > b)`|`{{ if (gt a b) }}`|---|
 |gte|`if (a >= b)`|`{{ if (gte a b) }}`|---|
