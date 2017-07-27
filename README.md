@@ -1,13 +1,27 @@
 # ember-handlebars-conditions
 
-This README outlines the details of collaborating on this Ember addon.
+It is a Ember addon to allow more flexibility on the conditional manipulation in handlebars (such as: equal, less than, greater than, isEmpty, etc)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-handlebars-conditions`
-* `npm install`
-* `bower install`
+* npm i ember-handlebars-conditions
+
+## Usage
+|Helper|Logic|Syntax|Remarks
+|:---|:---|:---|:---|
+|eq|`if (a==b)`|`{{ if (eq a b) }}`|Non-strict comparison|
+|seq|`if (a===b)`|`{{ if (seq str1 str2) }}`|Strict comparison|
+|not|`if (!a)`|`{{ if (not a) }}`|---|
+|gt|`if (a > b)`|`{{ if (gt a b) }}`|---|
+|gte|`if (a >= b)`|`{{ if (gte a b) }}`|---|
+|lt|`if (a < b)`|`{{ if (lt a b) }}`|---|
+|lte|`if (a <= b)`|`{{ if (lte a b) }}`|---|
+|and|`if (a && b)`|`{{ if (and a b) }}`|---|
+|or|`if (a || b)`|`{{ if (or a b) }}`|---|
+|xor|`if (!a && b || !b && a)`|`{{ if (xor a b) }}`|---|
+|isBlank|`if (Ember.isBlank(a))`|`{{ if (isBlank a) }}`|---|
+|isEmpty|`if (Ember.isEmpty(a))`|`{{ if (isEmpty a) }}`|---|
+|isNone|`if (Ember.isNone(a))`|`{{ if (isNone a) }}`|---|
 
 ## Running
 

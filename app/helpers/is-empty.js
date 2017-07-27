@@ -1,7 +1,1 @@
-import Ember from 'ember';
-
-export function isEmpty(params/*, hash*/) {
-  return Ember.isEmpty(params[0]);
-}
-
-export default Ember.Helper.helper(isEmpty);
+export { default, isEmpty } from 'ember-handlebars-conditions/helpers/is-empty';

@@ -1,7 +1,1 @@
-import Ember from 'ember';
-
-export function not(params/*, hash*/) {
-  return !params[0];
-}
-
-export default Ember.Helper.helper(not);
+export { default, not } from 'ember-handlebars-conditions/helpers/not';
