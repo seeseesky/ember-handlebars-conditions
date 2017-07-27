@@ -4,7 +4,7 @@ It is a Ember addon to allow more flexibility on the conditional manipulation in
 
 ## Installation
 
-* npm i ember-handlebars-conditions
+* ember install ember-handlebars-conditions
 
 ## Usage
 |Helper|Logic|Syntax|Remarks
