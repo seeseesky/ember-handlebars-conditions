@@ -1,4 +1,4 @@
-
+/*
 import { seq } from 'dummy/helpers/seq';
 import { module, test } from 'qunit';
 
@@ -10,3 +10,4 @@ test('it works', function(assert) {
   assert.ok(result);
 });
 
+*/

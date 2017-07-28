@@ -5,7 +5,6 @@ export function eq(params) {
     return JSON.stringify(params[0]) === JSON.stringify(params[1]) ;
   }
   return params[0] == params[1];
-  console.log("test npm link");
 
 }
 
