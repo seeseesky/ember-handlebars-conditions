@@ -1,6 +1,6 @@
 {
   "name": "ember-handlebars-conditions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Using ember-handlebars-conditions helpers function in handlebars to have more flexibility in conditional manipulation",
   "keywords": [
     "ember-addon",
